@@ -1,6 +1,3 @@
-const slides = 
-
-console.log(slides);
 // IMPORT VUE
 const { createApp } = Vue
     createApp({
