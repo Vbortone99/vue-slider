@@ -32,5 +32,13 @@ const { createApp } = Vue
                     ],
                     activeSlide:0
             };
-        }
+        },
+        methods:{
+            previousSlide(){
+                this.activeSlide--
+            },
+            nextSlide(){
+                this.activeSlide++
+            }
+        },
     }).mount('#app');
